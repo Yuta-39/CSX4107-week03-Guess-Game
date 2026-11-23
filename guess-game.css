@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+.main-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-size: 24px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+#guess-value {
+    width: 260px;
+    height: 32px;
+    padding: 4px 10px;
+    font-size: 16px;
+    border: 1.5px solid #333333;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#guess-value:focus {
+    outline: none;
+    border-color: blue;
+}
+
+button {
+    background-color: blue;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 18px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000cc;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 12px 0;
+}
+
+#attempt-text,
+#result {
+    font-size: 15px;
+}
+
+#result {
+    min-height: 20px;
+    font-weight: 500;
+}
